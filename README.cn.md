@@ -4,7 +4,7 @@
 
 git commit --fixup, but automatic
 
-![git-absorb](https://repo.x-cmd.io/git-absorb.svg)
+![git-absorb](https://repo.x-cmd.io/git-absorb.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,22 @@ x install git-absorb
 - **最新版本**: `0.9.0` (2026-02-14)
 - **最近提交**: 2026-02-14
 - **Release 含资产**: 7 个
-- **发布时间**: 2026-02-14T03:44:54Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [git-absorb-0.9.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-arm-unknown-linux-gnueabihf.tar.gz) | 929.3 KiB | `native/linux/arm/glibc` |
+| [git-absorb-0.9.0-x86_64-apple-darwin.tar.gz](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-apple-darwin.tar.gz) | 866.3 KiB | `native/darwin/x64` |
+| [git-absorb-0.9.0-x86_64-pc-windows-gnu.zip](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-pc-windows-gnu.zip) | 1.4 MiB | `native/win/x64` |
+| [git-absorb-0.9.0-x86_64-pc-windows-msvc.zip](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-pc-windows-msvc.zip) | 1.1 MiB | `native/win/x64` |
+| [git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz) | 1.0 MiB | `native/linux/x64/musl` |
+| [git-absorb.1](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb.1) | 8.5 KiB | `other` |
+| [git-absorb.html](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb.html) | 27.2 KiB | `other` |
 
 ## 流行度
 
-- **Star**: 5,717 · **Fork**: 109 · **开放 issue**: 115 · **贡献者**: 42
+- **Star**: 5,717 · **Fork**: 110 · **开放 issue**: 115 · **贡献者**: 42
 
 ## 累计统计
 
@@ -72,4 +83,4 @@ git-absorb 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:10:56Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:52:15Z._

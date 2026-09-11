@@ -7,7 +7,7 @@ about:
   latestVersion: "0.9.0"
   latestRelease: "0.9.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:09:13Z
+  collectedAt: 2026-09-11T20:51:58Z
 timeline:
   created: 2018-02-15
   lastCommit: 2026-02-14
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-02-14
   lastPrerelease: 
 popularity:
-  star: 5716
+  star: 5717
   watcher: 19
   fork: 110
   release: 22
@@ -66,7 +66,7 @@ recent:
     openPR: 2
     closedIssue: 2
     openIssue: 7
-    commit: 4
+    commit: 0
   last720d:
     since: 2024-09-21
     release: 5
@@ -84,7 +84,7 @@ total:
   commit: 378
 ---
 path: /home/runner/.x-repo/github.com/tummychow/git-absorb
-collectedAt: 2026-09-11T04:09:14Z
+collectedAt: 2026-09-11T20:52:02Z
 loc:
   Rust:
     code: 2690

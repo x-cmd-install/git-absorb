@@ -48,7 +48,7 @@ x install git-absorb
 
 ## 流行度
 
-- **Star**: 5,716 · **Fork**: 110 · **开放 issue**: 115 · **贡献者**: 42
+- **Star**: 5,717 · **Fork**: 110 · **开放 issue**: 115 · **贡献者**: 42
 
 ## 累计统计
 
@@ -62,7 +62,7 @@ x install git-absorb
 | last60d | 2026-07-13 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-13 | 0 | 0 | 0 | 0 | 2 | 0 |
 | last180d | 2026-03-15 | 0 | 0 | 0 | 0 | 3 | 0 |
-| 360d | 2025-09-16 | 1 | 3 | 2 | 2 | 7 | 4 |
+| 360d | 2025-09-16 | 1 | 3 | 2 | 2 | 7 | 0 |
 | last720d | 2024-09-21 | 5 | 38 | 2 | 37 | 12 | 127 |
 
 ## Release 资产
@@ -105,4 +105,4 @@ git-absorb 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T04:09:20Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:52:10Z._

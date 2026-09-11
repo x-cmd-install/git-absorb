@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 951604,
       "digest": "sha256:61fba2729e424d0fba187f1fd39aaeee787b5efd50669854922ca64925e2ea38",
-      "download_count": 170,
+      "download_count": 179,
       "created_at": "2026-02-14T03:47:37Z",
       "updated_at": "2026-02-14T03:47:37Z",
       "browser_download_url": "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-arm-unknown-linux-gnueabihf.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1055826,
       "digest": "sha256:517b442260a38617b05df0078b9e659b95068fabe8d0a83a33589d15f198d9a7",
-      "download_count": 24748,
+      "download_count": 24761,
       "created_at": "2026-02-14T03:47:14Z",
       "updated_at": "2026-02-14T03:47:15Z",
       "browser_download_url": "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz"

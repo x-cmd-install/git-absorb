@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,735 · **Forks**: 110 · **Open issues**: 115 · **Contributors**: 42
+- **Stars**: 5,734 · **Forks**: 111 · **Open issues**: 115 · **Contributors**: 42
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 88 · **Open PRs**: 3 · **Closed issues**: 89 · **Open issues**: 26 · **Commits**: 378
+- **Releases**: 22 · **Merged PRs**: 88 · **Open PRs**: 4 · **Closed issues**: 89 · **Open issues**: 26 · **Commits**: 378
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-01 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-07-02 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-04-03 | 0 | 0 | 1 | 0 | 3 | 0 |
-| 360d | 2025-10-05 | 1 | 3 | 3 | 2 | 7 | 4 |
-| last720d | 2024-10-10 | 5 | 38 | 3 | 35 | 11 | 127 |
+| 30d | 2026-09-01 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-08-02 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-07-03 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last180d | 2026-04-04 | 0 | 0 | 2 | 0 | 3 | 0 |
+| 360d | 2025-10-06 | 1 | 3 | 4 | 2 | 7 | 4 |
+| last720d | 2024-10-11 | 5 | 38 | 4 | 35 | 11 | 127 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for git-absorb lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:07:07Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T05:20:44Z._

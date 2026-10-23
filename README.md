@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,745 · **Forks**: 114 · **Open issues**: 115 · **Contributors**: 42
+- **Stars**: 5,746 · **Forks**: 114 · **Open issues**: 115 · **Contributors**: 42
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 2 | 0 | 3 | 0 |
-| 360d | 2025-10-27 | 1 | 3 | 4 | 2 | 7 | 4 |
-| last720d | 2024-11-01 | 5 | 36 | 4 | 32 | 11 | 125 |
+| 30d | 2026-09-23 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 2 | 0 | 3 | 0 |
+| 360d | 2025-10-28 | 1 | 3 | 4 | 2 | 7 | 4 |
+| last720d | 2024-11-02 | 5 | 35 | 4 | 32 | 11 | 125 |
 
 ## Release assets
 
@@ -77,6 +77,25 @@ Lowest-scoring checks:
 | [git-absorb.1](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb.1) | 8.5 KiB | `other` |
 | [git-absorb.html](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb.html) | 27.2 KiB | `other` |
 
+## Distribution status
+
+Reported by **101** distros on [repology.org](https://repology.org/project/git-absorb). **46** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.9.0` | ✅ latest |
+| Debian 14 | `0.9.0` | ✅ latest |
+| Debian 13 | `0.6.17` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.6.17` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.6.11` | ⚠️ outdated |
+| Arch | `0.9.0` | ✅ latest |
+| Homebrew | `0.9.0` | ✅ latest |
+| Fedora rawhide | `0.9.0` | ✅ latest |
+| Nix unstable | `0.9.0` | ✅ latest |
+| Void | `0.9.0` | ✅ latest |
+| Alpine edge | `0.9.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for git-absorb lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `git-absorb` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -86,4 +105,4 @@ Install metadata for git-absorb lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:14:52Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:18:32Z._

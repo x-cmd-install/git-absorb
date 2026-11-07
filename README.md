@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,759 · **Forks**: 114 · **Open issues**: 115 · **Contributors**: 42
+- **Stars**: 5,760 · **Forks**: 114 · **Open issues**: 115 · **Contributors**: 42
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-08 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-05-10 | 0 | 0 | 3 | 0 | 3 | 0 |
-| 360d | 2025-11-11 | 1 | 3 | 5 | 2 | 7 | 4 |
-| last720d | 2024-11-16 | 4 | 35 | 5 | 28 | 11 | 121 |
+| 30d | 2026-10-08 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-09 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-05-11 | 0 | 0 | 3 | 0 | 3 | 0 |
+| 360d | 2025-11-12 | 1 | 3 | 5 | 2 | 7 | 4 |
+| last720d | 2024-11-17 | 4 | 35 | 5 | 28 | 11 | 121 |
 
 ## Release assets
 
@@ -79,7 +79,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **101** distros on [repology.org](https://repology.org/project/git-absorb). **44** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/git-absorb). **47** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for git-absorb lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:01:37Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T05:34:04Z._

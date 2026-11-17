@@ -76,6 +76,17 @@
     - marian.buschsieweke@posteo.net
   licenses:
     - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: git-absorb
+  visiblename: git-absorb
+  version: 0.8.0
+  origversion: null
+  status: outdated
+  summary: git commit --fixup, but automatic
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - BSD-3-Clause
 - repo: alpine_3_22
   subrepo: community
   srcname: git-absorb
@@ -645,24 +656,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: rust-git-absorb
-  binnames:
-    - git-absorb
-    - rust-git-absorb-devel
-    - rust-git-absorb+default-devel
-    - rust-git-absorb-debuginfo
-    - rust-git-absorb-debugsource
-  visiblename: rust-git-absorb
-  version: 0.6.12
-  origversion: 0.6.12-1.fc40
-  status: legacy
-  summary: Git commit --fixup, but automatic
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: rust-git-absorb
   binnames:
@@ -680,19 +673,8 @@
     - BSD-3-Clause
   categories:
     - Unspecified
-- repo: nix_unstable
-  srcname: git-absorb
-  visiblename: git-absorb
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: git commit --fixup, but automatic
-  maintainers:
-    - mail@beyermatthias.de
-  licenses:
-    - BSD-3-Clause
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: rust-git-absorb
   binnames:
     - git-absorb
@@ -701,9 +683,9 @@
     - rust-git-absorb-debuginfo
     - rust-git-absorb-debugsource
   visiblename: rust-git-absorb
-  version: 0.6.16
-  origversion: 0.6.16-1.fc41
-  status: outdated
+  version: 0.6.12
+  origversion: 0.6.12-1.fc40
+  status: legacy
   summary: Git commit --fixup, but automatic
   licenses:
     - BSD-3-Clause
@@ -722,6 +704,24 @@
   version: 0.6.13
   origversion: 0.6.13-2.fc41
   status: legacy
+  summary: Git commit --fixup, but automatic
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-git-absorb
+  binnames:
+    - git-absorb
+    - rust-git-absorb-devel
+    - rust-git-absorb+default-devel
+    - rust-git-absorb-debuginfo
+    - rust-git-absorb-debugsource
+  visiblename: rust-git-absorb
+  version: 0.6.16
+  origversion: 0.6.16-1.fc41
+  status: outdated
   summary: Git commit --fixup, but automatic
   licenses:
     - BSD-3-Clause
@@ -746,24 +746,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: rust-git-absorb
-  binnames:
-    - git-absorb
-    - rust-git-absorb-devel
-    - rust-git-absorb+default-devel
-    - rust-git-absorb-debuginfo
-    - rust-git-absorb-debugsource
-  visiblename: rust-git-absorb
-  version: 0.9.0
-  origversion: 0.9.0-4.fc43
-  status: newest
-  summary: Git commit --fixup, but automatic
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: rust-git-absorb
   binnames:
@@ -781,6 +763,39 @@
     - BSD-3-Clause
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-git-absorb
+  binnames:
+    - librust-git-absorb-dev
+    - git-absorb
+  visiblename: rust-git-absorb
+  version: 0.9.0
+  origversion: 0.9.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - andrewsh@debian.org
+  categories:
+    - misc
+- repo: fedora_43
+  subrepo: updates
+  srcname: rust-git-absorb
+  binnames:
+    - git-absorb
+    - rust-git-absorb-devel
+    - rust-git-absorb+default-devel
+    - rust-git-absorb-debuginfo
+    - rust-git-absorb-debugsource
+  visiblename: rust-git-absorb
+  version: 0.9.0
+  origversion: 0.9.0-4.fc43
+  status: newest
+  summary: Git commit --fixup, but automatic
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
 - repo: fedora_44
   subrepo: updates
   srcname: rust-git-absorb
@@ -793,6 +808,24 @@
   visiblename: rust-git-absorb
   version: 0.9.0
   origversion: 0.9.0-4.fc44
+  status: newest
+  summary: Git commit --fixup, but automatic
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: rust-git-absorb
+  binnames:
+    - git-absorb
+    - rust-git-absorb-devel
+    - rust-git-absorb+default-devel
+    - rust-git-absorb-debuginfo
+    - rust-git-absorb-debugsource
+  visiblename: rust-git-absorb
+  version: 0.9.0
+  origversion: 0.9.0-5.fc45
   status: newest
   summary: Git commit --fixup, but automatic
   licenses:
@@ -932,29 +965,6 @@
     - Unicode-DFS-2016
   categories:
     - dev-vcs
-- repo: nix_stable_24_11
-  srcname: git-absorb
-  visiblename: git-absorb
-  version: 0.6.15
-  origversion: null
-  status: outdated
-  summary: git commit --fixup, but automatic
-  maintainers:
-    - tom@tom-fitzhenry.me.uk
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: git-absorb
-  visiblename: git-absorb
-  version: 0.8.0
-  origversion: null
-  status: outdated
-  summary: git commit --fixup, but automatic
-  maintainers:
-    - tom@tom-fitzhenry.me.uk
-    - mail@beyermatthias.de
-  licenses:
-    - BSD-3-Clause
 - repo: liguros_stable
   srcname: dev-vcs/git-absorb
   visiblename: dev-vcs/git-absorb
@@ -970,21 +980,6 @@
     - Unicode-DFS-2016
   categories:
     - dev-vcs
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: rust-git-absorb
-  binnames:
-    - librust-git-absorb-dev
-    - git-absorb
-  visiblename: rust-git-absorb
-  version: 0.6.17
-  origversion: 0.6.17-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - andrewsh@debian.org
-  categories:
-    - universe/misc
 - repo: liguros_develop
   srcname: dev-vcs/git-absorb
   visiblename: dev-vcs/git-absorb
@@ -1018,6 +1013,53 @@
     - Unicode-DFS-2016
   categories:
     - dev-vcs
+- repo: scoop
+  subrepo: main
+  binname: git-absorb
+  visiblename: git-absorb
+  version: 0.9.0
+  origversion: null
+  status: newest
+  licenses:
+    - BSD-3-Clause
+- repo: solus
+  srcname: git-absorb
+  binname: git-absorb
+  visiblename: git-absorb
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: git commit --fixup, but automatic
+  maintainers:
+    - silke@slxh.eu
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - programming.tools
+- repo: solus
+  srcname: git-absorb
+  binname: git-absorb-dbginfo
+  visiblename: git-absorb-dbginfo
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for git-absorb
+  maintainers:
+    - silke@slxh.eu
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - debug
+- repo: termux
+  srcname: git-absorb
+  binname: git-absorb
+  visiblename: git-absorb
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: git commit --fixup, but automatic
+  maintainers:
+    - gouranga.das.khulna@gmail.com
 - repo: liguros_develop
   srcname: dev-vcs/git-absorb
   visiblename: dev-vcs/git-absorb
@@ -1093,7 +1135,18 @@
     - tom@tom-fitzhenry.me.uk
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_25_11
+- repo: nix_stable_24_11
+  srcname: git-absorb
+  visiblename: git-absorb
+  version: 0.6.15
+  origversion: null
+  status: outdated
+  summary: git commit --fixup, but automatic
+  maintainers:
+    - tom@tom-fitzhenry.me.uk
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
   srcname: git-absorb
   visiblename: git-absorb
   version: 0.8.0
@@ -1101,10 +1154,22 @@
   status: outdated
   summary: git commit --fixup, but automatic
   maintainers:
+    - tom@tom-fitzhenry.me.uk
     - mail@beyermatthias.de
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_26_05
+  srcname: git-absorb
+  visiblename: git-absorb
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: git commit --fixup, but automatic
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - BSD-3-Clause
+- repo: nix_unstable
   srcname: git-absorb
   visiblename: git-absorb
   version: 0.9.0
@@ -1162,7 +1227,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-git-absorb
   binnames:
     - librust-git-absorb-dev
@@ -1177,7 +1242,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-git-absorb
   binnames:
     - librust-git-absorb-dev
@@ -1251,68 +1316,6 @@
     - andrewsh@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-git-absorb
-  binnames:
-    - librust-git-absorb-dev
-    - git-absorb
-  visiblename: rust-git-absorb
-  version: 0.9.0
-  origversion: 0.9.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - andrewsh@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: git-absorb
-  visiblename: git-absorb
-  version: 0.9.0
-  origversion: null
-  status: newest
-  licenses:
-    - BSD-3-Clause
-- repo: solus
-  srcname: git-absorb
-  binname: git-absorb
-  visiblename: git-absorb
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: git commit --fixup, but automatic
-  maintainers:
-    - silke@slxh.eu
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - programming.tools
-- repo: solus
-  srcname: git-absorb
-  binname: git-absorb-dbginfo
-  visiblename: git-absorb-dbginfo
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for git-absorb
-  maintainers:
-    - silke@slxh.eu
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - debug
-- repo: termux
-  srcname: git-absorb
-  binname: git-absorb
-  visiblename: git-absorb
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: git commit --fixup, but automatic
-  maintainers:
-    - gouranga.das.khulna@gmail.com
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: rust-git-absorb
@@ -1337,6 +1340,21 @@
   visiblename: rust-git-absorb
   version: 0.6.11
   origversion: 0.6.11-1build1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - andrewsh@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rust-git-absorb
+  binnames:
+    - librust-git-absorb-dev
+    - git-absorb
+  visiblename: rust-git-absorb
+  version: 0.6.17
+  origversion: 0.6.17-2
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net

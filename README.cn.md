@@ -58,12 +58,12 @@ x install git-absorb
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-26 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-27 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-05-29 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-11-30 | 1 | 3 | 5 | 2 | 7 | 4 |
-| last720d | 2024-12-05 | 4 | 35 | 5 | 27 | 11 | 121 |
+| 30d | 2026-10-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-27 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-28 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-05-30 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-12-01 | 1 | 3 | 5 | 2 | 7 | 4 |
+| last720d | 2024-12-06 | 4 | 35 | 5 | 27 | 11 | 121 |
 
 ## Release 资产
 
@@ -77,25 +77,6 @@ x install git-absorb
 | [git-absorb.1](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb.1) | 8.5 KiB | `other` |
 | [git-absorb.html](https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb.html) | 27.2 KiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/git-absorb) 上共有 **104** 个发行版报告此项目。**49** 个 ✅ 已是最新上游版本，**45** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.9.0` | ✅ latest |
-| Debian 14 | `0.9.0` | ✅ latest |
-| Debian 13 | `0.6.17` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.6.17` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.6.11` | ⚠️ outdated |
-| Arch | `0.9.0` | ✅ latest |
-| Homebrew | `0.9.0` | ✅ latest |
-| Fedora rawhide | `0.9.0` | ✅ latest |
-| Nix unstable | `0.9.0` | ✅ latest |
-| Void | `0.9.0` | ✅ latest |
-| Alpine edge | `0.9.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
-
 ## 改进这些数据
 
 git-absorb 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `git-absorb` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -105,4 +86,4 @@ git-absorb 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T07:58:23Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T07:51:04Z._
